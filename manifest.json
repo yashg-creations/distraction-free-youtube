@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Distraction Free YouTube",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.youtube.com/*",
+                "https://www.youtube.com/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
